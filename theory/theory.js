@@ -216,3 +216,55 @@
 // };
 // const newObj = { ...q };
 // console.log(Object.setPrototypeOf(array, newArray));
+
+// to boolean
+//1
+// let switcher = null;
+// if (switcher) {
+//   console.log("working...");
+// }
+// switcher = 1;
+// if (switcher) {
+//   console.log("working...");
+// }
+// //2
+// console.log(typeof Boolean("4")); //boolean
+// //3
+// console.log(typeof !!"4"); //boolean
+
+//TASKS
+//1
+// let x = 5;
+// alert(++x);
+//•	Чему равно такое выражение: [ ] + false - null + true ?
+//console.log([] + false - null + true); //NaN
+//console.log(typeof ([] + false));//string
+// •	Что выведет этот код: let y = 1; let x = y = 2; alert(x); ?
+// let y = 1;
+// let x = (y = 2);
+// alert(x); //2
+// •	Чему равна сумма [ ] + 1 + 2?
+//console.log([] + 1 + 2); //12
+// •	Что выведет этот код: alert( "1"[0] )?
+//alert("1"[2]);
+// •	Чему равно 2 && 1 && null && 0 && undefined ?
+//console.log(2 && 1 && null && 0 && undefined);
+// •	Есть ли разница между выражениями? !!( a && b ) и (a && b)?
+// let a;
+// let b;
+// console.log(!!(a && b));
+// console.log(a && b);
+// console.log(!!(1 && 2) === (1 && 2));
+
+// •	Что выведет этот код: alert( null || 2 && 3 || 4 ); ?
+//alert(null || (2 && 3) || 4); //
+// •	a = [1, 2, 3]; b = [1, 2, 3]; Правда ли что a == b ?
+// const a = [1, 2, 3];
+// const b = [1, 2, 3];
+// console.log(a == b);
+// // •	Что выведет этот код: alert( +"Infinity" ); ?
+// //alert(+"Infinity"); //infinity as number;
+// // •	Верно ли сравнение: "Ёжик" > "яблоко"?
+// console.log("Ёжик" > "яблоко");
+// // •	Чему равно 0 || "" || 2 || undefined || true || falsе ?
+// console.log(0 || "" || 2 || undefined || true || falsе);
